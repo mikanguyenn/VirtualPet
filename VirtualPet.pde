@@ -9,7 +9,7 @@ void draw()
   ellipse(270,220,120,75);
   ellipse(130,220,120,75);
   //body
-  ellipse(200,240,200,200);
+  ellipse(200,240,205,200);
   fill(#FAFBFC);
   ellipse(200,250,160,165);
   //legs,feet
@@ -25,7 +25,7 @@ void draw()
   ellipse(260,45,60,55);
   //head
   fill(#FAFBFC);
-  ellipse(200,100,170,130);
+  ellipse(200,100,170,125);
   //eyes
   fill(0,0,0);
   ellipse(170,100,20,25);
@@ -36,8 +36,11 @@ void draw()
   //nose
   fill(0,0,0);
   ellipse(200,120,25,15);
+  //mouth
+  line(200,120,200,138);
+  curve(190,138,195,142,205,142,200,138);
    //cheeks
   fill(#F09BC8);
-  ellipse(150,120,20,15);
-  ellipse(250,120,20,15);
+  ellipse(150,120,20,10);
+  ellipse(250,120,20,10);
   }
