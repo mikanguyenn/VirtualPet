@@ -6,10 +6,10 @@ void draw()
 {
   //arms
   fill(0,0,0);
-  ellipse(270,220,120,75);
-  ellipse(130,220,120,75);
+  ellipse(270,220,120,65);
+  ellipse(130,220,120,65);
   //body
-  ellipse(200,240,205,200);
+  ellipse(200,240,200,200);
   fill(#FAFBFC);
   ellipse(200,250,160,165);
   //legs,feet
