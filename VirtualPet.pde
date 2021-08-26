@@ -6,12 +6,15 @@ void draw()
 {
   //arms
   fill(0,0,0);
-  ellipse(270,220,120,60);
+  push();
+  rotate(PI/-7);
+  ellipse(150,315,120,60);
+  pop();
   ellipse(130,220,120,60);
   //body
   ellipse(200,240,200,200);
   fill(#FAFBFC);
-  ellipse(200,250,160,165);
+  ellipse(200,250,160,160);
   //legs,feet
   fill(0,0,0);
   ellipse(250,320,75,70);
@@ -21,11 +24,11 @@ void draw()
   ellipse(150,325,60,55);
   //ears
   fill(0,0,0);
-  ellipse(140,45,60,55);
-  ellipse(260,45,60,55);
+  ellipse(140,45,60,50);
+  ellipse(260,45,60,50);
   //head
   fill(#FAFBFC);
-  ellipse(200,100,170,125);
+  ellipse(200,100,170,120);
   //eyes
   fill(0,0,0);
   ellipse(170,100,20,25);
