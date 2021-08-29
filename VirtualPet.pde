@@ -2,45 +2,67 @@ void setup()
 {
   size(400,400);
 }
+
 void draw()
 {
-  //arms
-  fill(0,0,0);
-  ellipse(150,315,120,60);
-  ellipse(150,220,120,60);
+   //right arm
+  fill(#89D851);
+  beginShape();
+  curveVertex(230,157);
+  curveVertex(230,159);
+  curveVertex(265,150);
+  curveVertex(280,150);
+  curveVertex(290,160);
+  curveVertex(270,170);
+  curveVertex(257,175);
+  curveVertex(257,180);
+  endShape();
+  //left arm
+  beginShape();
+  curveVertex(145,160);
+  curveVertex(145,163);
+  curveVertex(120,155);
+  curveVertex(110,153);
+  curveVertex(100,157);
+  curveVertex(110,170);
+  curveVertex(140,180);
+  curveVertex(140,178);
+  endShape();
   //body
-  ellipse(200,240,200,200);
-  fill(#FAFBFC);
-  ellipse(200,250,160,160);
-  //legs,feet
-  fill(0,0,0);
-  ellipse(250,320,75,70);
-  ellipse(150,320,75,70);
-  fill(#FAFBFC);
-  ellipse(250,325,60,55);
-  ellipse(150,325,60,55);
-  //ears
-  fill(0,0,0);
-  ellipse(140,45,60,50);
-  ellipse(260,45,60,50);
+  fill(#F088AE);
+  beginShape();
+  curveVertex(150,160);
+  curveVertex(150,160);
+  curveVertex(120,220);
+  curveVertex(270,220);
+  curveVertex(240,160);
+  curveVertex(240,160);
+  endShape();
   //head
-  fill(#FAFBFC);
-  ellipse(200,100,170,120);
+  fill(#89D851);
+  rect(110,70,170,90,200);
   //eyes
+  fill(#F5F5F5);
+  ellipse(158,55,80,80);
+  ellipse(236,55,80,80);
   fill(0,0,0);
-  ellipse(170,100,20,25);
-  ellipse(230,100,20,25);
-  fill(#FAFBFC);
-  ellipse(170,95,10,10);
-  ellipse(230,95,10,10);
-  //nose
-  fill(0,0,0);
-  ellipse(200,120,25,15);
+  ellipse(170,55,20,20);
+  ellipse(220,55,20,20);
+  //cheeks
+  fill(#E888C6);
+  ellipse(130,120,27,27);
+  ellipse(260,120,27,27);
   //mouth
-  line(200,120,200,138);
-  curve(190,138,195,142,205,142,200,138);
-   //cheeks
-  fill(#F09BC8);
-  ellipse(150,120,20,10);
-  ellipse(250,120,20,10);
-  }
+  fill(0,0,0);
+  beginShape();
+  vertex(150,130);
+  vertex(195,160);
+  vertex(240,130);
+  vertex(195,155);
+  endShape();
+  //feet
+  fill(#89D851);
+  ellipse(165,230,50,40);
+  ellipse(215,230,50,40);
+  strokeWeight(4.0);
+}
