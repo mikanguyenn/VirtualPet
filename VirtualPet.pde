@@ -7,7 +7,7 @@ void draw()
   //arms
   fill(0,0,0);
   ellipse(150,315,120,60);
-  ellipse(130,220,120,60);
+  ellipse(150,220,120,60);
   //body
   ellipse(200,240,200,200);
   fill(#FAFBFC);
