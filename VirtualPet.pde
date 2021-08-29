@@ -6,10 +6,7 @@ void draw()
 {
   //arms
   fill(0,0,0);
-  push();
-  rotate(PI/-7);
   ellipse(150,315,120,60);
-  pop();
   ellipse(130,220,120,60);
   //body
   ellipse(200,240,200,200);
